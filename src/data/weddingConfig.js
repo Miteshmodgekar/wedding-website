@@ -278,11 +278,11 @@ export const weddingConfig = {
     goldAccentColor: '#C9A84C',
     waxSealColor: '#6B1E2A',
     durations: {
-      sealFade: 350,
-      flapOpen: 900,
-      cardRise: 800,
-      cardSettle: 600,
-      overlayFade: 500,
+      sealFade: 200,
+      flapOpen: 500,
+      cardRise: 400,
+      cardSettle: 300,
+      overlayFade: 300,
     },
   },
 };
