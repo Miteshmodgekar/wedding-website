@@ -118,22 +118,24 @@ const EventCard = ({ event, index }) => (
           </div>
         </div>
       </div>
-      <a
-        href={event.mapsUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 mt-5 px-5 py-2 text-xs tracking-widest uppercase transition-opacity duration-300 hover:opacity-80"
-        style={{
-          background: 'linear-gradient(135deg, #C9A84C, #8B6914)',
-          color: '#FDFAF5',
-          borderRadius: 1,
-          fontFamily: 'var(--font-sans)',
-        }}
-        aria-label={`Get directions to ${event.venue}`}
-      >
-        <ExternalLink size={12} />
-        Get Directions
-      </a>
+      {event.mapsUrl && (
+        <a
+          href={event.mapsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 mt-5 px-5 py-2 text-xs tracking-widest uppercase transition-opacity duration-300 hover:opacity-80"
+          style={{
+            background: 'linear-gradient(135deg, #C9A84C, #8B6914)',
+            color: '#FDFAF5',
+            borderRadius: 1,
+            fontFamily: 'var(--font-sans)',
+          }}
+          aria-label={`Get directions to ${event.venue}`}
+        >
+          <ExternalLink size={12} />
+          Get Directions
+        </a>
+      )}
     </div>
   </motion.article>
 )

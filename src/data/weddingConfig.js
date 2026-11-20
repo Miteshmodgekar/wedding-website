@@ -63,7 +63,7 @@ export const weddingConfig = {
       enabled: true,
       date: "11 December 2026",
       time: "07:00 PM",
-      venue: "Ashirwad kalmeshwar nagar yellur belgaum",
+      venue: "Ashirwad, Kalmeshwar Nagar, Yellur, Belgaum",
       imageUrl: "/event-mehendi.avif",
       description:
         "An intimate evening of intricate henna artistry, music, and celebration.",
@@ -75,7 +75,7 @@ export const weddingConfig = {
       enabled: true,
       date: "11 December 2026",
       time: "07:00 PM",
-      venue: "Ashirwad kalmeshwar nagar yellur belgaum",
+      venue: "Ashirwad, Kalmeshwar Nagar, Yellur, Belgaum",
       imageUrl:
         "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
       description:
@@ -137,10 +137,10 @@ export const weddingConfig = {
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1529635696913-7e6a52f5edec?w=800&q=80",
+      url: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80",
       thumb:
-        "https://images.unsplash.com/photo-1529635696913-7e6a52f5edec?w=400&q=70",
-      caption: "Sunset at Marine Drive",
+        "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&q=70",
+      caption: "Sunset Blessings",
     },
     {
       id: 3,
@@ -151,10 +151,10 @@ export const weddingConfig = {
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1620057379-77b6e8a8c254?w=800&q=80",
+      url: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
       thumb:
-        "https://images.unsplash.com/photo-1620057379-77b6e8a8c254?w=400&q=70",
-      caption: "Sacred vows",
+        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&q=70",
+      caption: "Sacred Vows",
     },
     {
       id: 5,

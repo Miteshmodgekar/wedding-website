@@ -99,8 +99,7 @@ export default function RsvpSection() {
               fontStyle: 'italic',
             }}
           >
-            Your presence would make our day truly special. Please RSVP so we
-            can ensure everything is perfect for you.
+            Your presence would make our day truly special.
           </p>
         </motion.div>
 
@@ -109,7 +108,7 @@ export default function RsvpSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="grid grid-cols-2 sm:grid-cols-4 gap-4"
+          className="grid grid-cols-2 gap-4"
         >
           <GoldBtn
             href={whatsappRsvpUrl}
@@ -124,20 +123,6 @@ export default function RsvpSection() {
             label="Share"
             sublabel="Invite a friend"
             ariaLabel="Share the invitation via WhatsApp"
-          />
-          <GoldBtn
-            href={`tel:${couple.bride.phone}`}
-            icon={Phone}
-            label={couple.bride.firstName}
-            sublabel="Call the Bride"
-            ariaLabel={`Call ${couple.bride.fullName}`}
-          />
-          <GoldBtn
-            href={`tel:${couple.groom.phone}`}
-            icon={Phone}
-            label={couple.groom.firstName}
-            sublabel="Call the Groom"
-            ariaLabel={`Call ${couple.groom.fullName}`}
           />
         </motion.div>
       </div>

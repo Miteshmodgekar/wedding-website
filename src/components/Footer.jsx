@@ -89,16 +89,7 @@ export default function Footer() {
           />
         </div>
 
-        {/* Credit */}
-        <p
-          className="text-xs"
-          style={{
-            color: 'rgba(212,180,131,0.3)',
-            fontFamily: 'var(--font-sans)',
-          }}
-        >
-          Crafted with ❤ by WedCraft Premium
-        </p>
+
       </motion.div>
     </footer>
   )

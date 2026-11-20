@@ -107,7 +107,7 @@ export default function LoveStorySection() {
             className="text-4xl sm:text-5xl"
             style={{ fontFamily: 'var(--font-script)', color: '#4A1118' }}
           >
-            Our Love Story
+            Our Story
           </h2>
           <div className="ornament-line mt-4 max-w-xs mx-auto">
             <span className="text-xl" style={{ color: '#C9A84C' }} aria-hidden="true">✦</span>
