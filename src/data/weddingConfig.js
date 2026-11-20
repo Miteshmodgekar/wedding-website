@@ -10,10 +10,10 @@
 export const weddingConfig = {
   // ── Meta & SEO ───────────────────────────────────────────
   meta: {
-    title: "Priya & Arjun Wedding",
+    title: "Poonam & Prasad Wedding",
     description:
-      "Join us to celebrate the wedding of Priya Sharma & Arjun Kapoor on 15 February 2027.",
-    keywords: "wedding, Indian wedding, Priya Sharma, Arjun Kapoor",
+      "Join us to celebrate the wedding of Poonam Kangralkar & Prasad Mankoji on 14 December 2026.",
+    keywords: "wedding, Indian wedding, Poonam Kangralkar, Prasad Mankoji, Belagavi",
     ogImage: "/og-image.jpg",
     siteUrl: "https://prasad-poonam-wedding.vercel.app",
   },
@@ -21,15 +21,15 @@ export const weddingConfig = {
   // ── Couple ───────────────────────────────────────────────
   couple: {
     bride: {
-      firstName: "Priya",
-      lastName: "Sharma",
-      fullName: "Priya Sharma",
+      firstName: "Poonam",
+      lastName: "Kangralkar",
+      fullName: "Poonam Kangralkar",
       phone: "+917411103558",
     },
     groom: {
-      firstName: "Arjun",
-      lastName: "Kapoor",
-      fullName: "Arjun Kapoor",
+      firstName: "Prasad",
+      lastName: "Mankoji",
+      fullName: "Prasad Mankoji",
       phone: "+917411103558",
     },
     couplePhotoUrl:
@@ -43,14 +43,14 @@ export const weddingConfig = {
   // ── Wedding Date & Tagline ────────────────────────────────
   wedding: {
     // ISO 8601 date-time — use local time of the ceremony
-    dateISO: "2027-02-15T10:30:00",
-    dateDisplay: "15 February 2027",
+    dateISO: "2026-12-14T12:33:00",
+    dateDisplay: "14 December 2026",
     dayDisplay: "Monday",
     tagline: "Two souls, one destiny",
     invitationText:
       "With the blessings of our families, we joyfully invite you to witness and celebrate our union.",
     openingMessage:
-      "Together with their families,\nPriya Sharma & Arjun Kapoor\nrequest the honour of your presence\nat their wedding celebration.",
+      "Together with their families,\nPoonam Kangralkar & Prasad Mankoji\nrequest the honour of your presence\nat their wedding celebration.",
   },
 
   // ── Events ───────────────────────────────────────────────
@@ -106,11 +106,11 @@ export const weddingConfig = {
       name: "Wedding",
       icon: "💍",
       enabled: true,
-      date: "15 February 2027",
-      time: "10:30 AM",
-      venue: "Iskcon Temple & Lawns",
-      address: "Hare Krishna Land, Juhu, Mumbai – 400049",
-      mapsUrl: "https://maps.google.com/?q=ISKCON+Juhu+Mumbai",
+      date: "14 December 2026",
+      time: "12:33 PM",
+      venue: "Hanamannavar Lawns",
+      address: "Sahyadri Colony, Bhagyanagar Extension, Belagavi, Karnataka 590005 (Angol)",
+      mapsUrl: "https://maps.google.com/?q=Hanamannavar+Lawns+Angol+Belagavi",
       imageUrl:
         "https://images.unsplash.com/photo-1620057379-77b6e8a8c254?w=800&q=80",
       description:
@@ -224,9 +224,9 @@ export const weddingConfig = {
     // WhatsApp number for RSVP — include country code, no spaces or dashes
     whatsappRsvp: "917411103558
     rsvpMessage:
-      "Hi! I'd love to confirm my attendance at Priya & Arjun's wedding. 💕",
+      "Hi! I'd love to confirm my attendance at Poonam & Prasad's wedding. 💕",
     shareMessage:
-      "You're invited to celebrate the wedding of Priya Sharma & Arjun Kapoor! 💍✨",
+      "You're invited to celebrate the wedding of Poonam Kangralkar & Prasad Mankoji! 💍✨",
     shareUrl: "https://prasad-poonam-wedding.vercel.app",
     bridePhone: "+917411103558",
     groomPhone: "+917411103558",
@@ -273,7 +273,7 @@ export const weddingConfig = {
     rememberOpened: true,
     allowSkip: true,
     buttonLabel: 'Open Invitation',
-    coupleInitials: 'P & A',
+    coupleInitials: 'P & P',
     envelopeColor: '#FDFAF5',
     goldAccentColor: '#C9A84C',
     waxSealColor: '#6B1E2A',
