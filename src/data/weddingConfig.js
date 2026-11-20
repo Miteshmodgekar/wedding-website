@@ -64,8 +64,7 @@ export const weddingConfig = {
       date: "11 December 2026",
       time: "07:00 PM",
       venue: "Ashirwad kalmeshwar nagar yellur belgaum",
-      imageUrl:
-        "https://images.unsplash.com/photo-1546961342-ea5f71b193f3?w=800&q=80",
+      imageUrl: "/event-mehendi.avif",
       description:
         "An intimate evening of intricate henna artistry, music, and celebration.",
     },
@@ -92,8 +91,7 @@ export const weddingConfig = {
       venue: "Hanamannavar Lawns",
       address: "Sahyadri Colony, Bhagyanagar Extension, Belagavi, Karnataka 590005 (Angol)",
       mapsUrl: "https://maps.google.com/?q=Hanamannavar+Lawns+Angol+Belagavi",
-      imageUrl:
-        "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?w=800&q=80",
+      imageUrl: "/event-haldi.jpg",
       description:
         "A vibrant and joyous ceremony to bless the couple with turmeric and floral scents.",
     },
@@ -107,8 +105,7 @@ export const weddingConfig = {
       venue: "Hanamannavar Lawns",
       address: "Sahyadri Colony, Bhagyanagar Extension, Belagavi, Karnataka 590005 (Angol)",
       mapsUrl: "https://maps.google.com/?q=Hanamannavar+Lawns+Angol+Belagavi",
-      imageUrl:
-        "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=800&q=80",
+      imageUrl: "/event-wedding.jpg",
       description:
         "The sacred union of two hearts in a traditional Vedic wedding ceremony.",
     },
