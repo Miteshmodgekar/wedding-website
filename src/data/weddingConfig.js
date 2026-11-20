@@ -213,10 +213,9 @@ export const weddingConfig = {
     // Public domain / royalty-free audio. Replace with licensed track.
     // For production, host your audio file and update this URL.
     // Set enabled: false to disable the music player entirely.
-    audioUrl:
-      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    trackName: "Our Song",
-    artistName: "Special Selection",
+    audioUrl: "/our-song.mp3",
+    trackName: "Sab Tera",
+    artistName: "Baaghi",
   },
 
   // ── Theme ─────────────────────────────────────────────────
@@ -239,7 +238,7 @@ export const weddingConfig = {
     showOurStory: true,
     showMusic: true,
     showRsvp: true,
-    showFooter: false,
+    showFooter: true,
   },
 
   // ── Envelope Opening ──────────────────────────────────────
