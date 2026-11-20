@@ -57,21 +57,6 @@ export const weddingConfig = {
   // Set enabled: false to hide an event from the site
   events: [
     {
-      id: "haldi",
-      name: "Haldi",
-      icon: "🌼",
-      enabled: true,
-      date: "13 December 2026",
-      time: "07:00 PM",
-      venue: "Hanamannavar Lawns",
-      address: "Sahyadri Colony, Bhagyanagar Extension, Belagavi, Karnataka 590005 (Angol)",
-      mapsUrl: "https://maps.google.com/?q=Hanamannavar+Lawns+Angol+Belagavi",
-      imageUrl:
-        "https://images.unsplash.com/photo-1626197031507-c17099753214?w=800&q=80",
-      description:
-        "A vibrant and joyous ceremony to bless the couple with turmeric and floral scents.",
-    },
-    {
       id: "mehendi",
       name: "Mehendi",
       icon: "🌿",
@@ -80,7 +65,7 @@ export const weddingConfig = {
       time: "07:00 PM",
       venue: "Ashirwad kalmeshwar nagar yellur belgaum",
       imageUrl:
-        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
+        "https://images.unsplash.com/photo-1546961342-ea5f71b193f3?w=800&q=80",
       description:
         "An intimate evening of intricate henna artistry, music, and celebration.",
     },
@@ -98,6 +83,21 @@ export const weddingConfig = {
         "An evening of music, dance, and merriment as two families unite in celebration.",
     },
     {
+      id: "haldi",
+      name: "Haldi",
+      icon: "🌼",
+      enabled: true,
+      date: "13 December 2026",
+      time: "07:00 PM",
+      venue: "Hanamannavar Lawns",
+      address: "Sahyadri Colony, Bhagyanagar Extension, Belagavi, Karnataka 590005 (Angol)",
+      mapsUrl: "https://maps.google.com/?q=Hanamannavar+Lawns+Angol+Belagavi",
+      imageUrl:
+        "https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?w=800&q=80",
+      description:
+        "A vibrant and joyous ceremony to bless the couple with turmeric and floral scents.",
+    },
+    {
       id: "wedding",
       name: "Wedding",
       icon: "💍",
@@ -108,7 +108,7 @@ export const weddingConfig = {
       address: "Sahyadri Colony, Bhagyanagar Extension, Belagavi, Karnataka 590005 (Angol)",
       mapsUrl: "https://maps.google.com/?q=Hanamannavar+Lawns+Angol+Belagavi",
       imageUrl:
-        "https://images.unsplash.com/photo-1620057379-77b6e8a8c254?w=800&q=80",
+        "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=800&q=80",
       description:
         "The sacred union of two hearts in a traditional Vedic wedding ceremony.",
     },
@@ -174,8 +174,8 @@ export const weddingConfig = {
       caption: "Haldi blessings",
     },
   ],
-  // ── Our Story Timeline ───────────────────────────────────
-  OurStory: [
+  // ── Our Story / Love Story Timeline ─────────────────────
+  loveStory: [
     {
       year: "2025",
       title: "Roka Ceremony",
@@ -205,6 +205,8 @@ export const weddingConfig = {
     shareMessage:
       "You're invited to celebrate the wedding of Poonam Kangralkar & Prasad Mankoji! 💍✨",
     shareUrl: "https://prasad-poonam-wedding.vercel.app",
+    bridePhone: "+917411103558",
+    groomPhone: "+917411103558",
   },
 
   // ── Music ─────────────────────────────────────────────────
