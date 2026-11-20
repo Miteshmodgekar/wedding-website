@@ -236,6 +236,7 @@ export const weddingConfig = {
     showEvents: true,
     showGallery: true,
     showOurStory: true,
+    showLoveStory: true,
     showMusic: true,
     showRsvp: true,
     showFooter: true,
