@@ -24,13 +24,13 @@ export const weddingConfig = {
       firstName: "Priya",
       lastName: "Sharma",
       fullName: "Priya Sharma",
-      phone: "+919876543210",
+      phone: "+917411103558",
     },
     groom: {
       firstName: "Arjun",
       lastName: "Kapoor",
       fullName: "Arjun Kapoor",
-      phone: "+919876543211",
+      phone: "+917411103558",
     },
     couplePhotoUrl:
       "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1200&q=80",
@@ -222,14 +222,14 @@ export const weddingConfig = {
   // ── Contact & Sharing ─────────────────────────────────────
   contact: {
     // WhatsApp number for RSVP — include country code, no spaces or dashes
-    whatsappRsvp: "919876543210",
+    whatsappRsvp: "917411103558
     rsvpMessage:
       "Hi! I'd love to confirm my attendance at Priya & Arjun's wedding. 💕",
     shareMessage:
       "You're invited to celebrate the wedding of Priya Sharma & Arjun Kapoor! 💍✨",
     shareUrl: "https://prasad-poonam-wedding.vercel.app",
-    bridePhone: "+919876543210",
-    groomPhone: "+919876543211",
+    bridePhone: "+917411103558",
+    groomPhone: "+917411103558",
   },
 
   // ── Music ─────────────────────────────────────────────────
