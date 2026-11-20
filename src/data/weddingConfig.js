@@ -15,7 +15,7 @@ export const weddingConfig = {
       "Join us to celebrate the wedding of Priya Sharma & Arjun Kapoor on 15 February 2027.",
     keywords: "wedding, Indian wedding, Priya Sharma, Arjun Kapoor",
     ogImage: "/og-image.jpg",
-    siteUrl: "https://prasas-poonam-wedding.vercel.app",
+    siteUrl: "https://prasad-poonam-wedding.vercel.app",
   },
 
   // ── Couple ───────────────────────────────────────────────
@@ -227,7 +227,7 @@ export const weddingConfig = {
       "Hi! I'd love to confirm my attendance at Priya & Arjun's wedding. 💕",
     shareMessage:
       "You're invited to celebrate the wedding of Priya Sharma & Arjun Kapoor! 💍✨",
-    shareUrl: "https://prasas-poonam-wedding.vercel.app",
+    shareUrl: "https://prasad-poonam-wedding.vercel.app",
     bridePhone: "+919876543210",
     groomPhone: "+919876543211",
   },
