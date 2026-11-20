@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* ── Custom Design Tokens ── */
+@theme {
+  --color-ivory: #FDFAF5;
+  --color-champagne: #D4B483;
+  --color-gold: #8B6914;
+  --color-gold-light: #C9A84C;
+  --color-maroon: #6B1E2A;
+  --color-maroon-dark: #4A1118;
+  --color-blush: #F5E6E8;
+  --color-blush-dark: #E8C5CC;
+  --color-brown: #2C1810;
+
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Jost", "Inter", system-ui, sans-serif;
+  --font-script: "Great Vibes", "Dancing Script", cursive;
+}
+
+/* ── Base ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-brown);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Typography ── */
+.font-serif   { font-family: var(--font-serif); }
+.font-script  { font-family: var(--font-script); }
+.font-sans    { font-family: var(--font-sans); }
+
+/* ── Gold Gradient Text ── */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #C9A84C 0%, #8B6914 40%, #D4B483 70%, #A07820 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Shimmer Animation ── */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #C9A84C 0%, #fff8e7 50%, #C9A84C 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* ── Floral / Ornamental ── */
+.ornament-line {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ornament-line::before,
+.ornament-line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #C9A84C, transparent);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-ivory); }
+::-webkit-scrollbar-thumb { background: var(--color-champagne); border-radius: 3px; }
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
