@@ -222,7 +222,7 @@ export const weddingConfig = {
   // ── Contact & Sharing ─────────────────────────────────────
   contact: {
     // WhatsApp number for RSVP — include country code, no spaces or dashes
-    whatsappRsvp: "917411103558
+    whatsappRsvp: "917411103558",
     rsvpMessage:
       "Hi! I'd love to confirm my attendance at Poonam & Prasad's wedding. 💕",
     shareMessage:
