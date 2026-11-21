@@ -41,31 +41,6 @@ export default function MusicPlayer() {
       role="region"
       aria-label="Background music player"
     >
-      <AnimatePresence>
-        {playing && (
-          <motion.div
-            initial={{ opacity: 0, x: 20, scale: 0.9 }}
-            animate={{ opacity: 1, x: 0, scale: 1 }}
-            exit={{ opacity: 0, x: 20, scale: 0.9 }}
-            className="px-4 py-2 rounded-full text-xs"
-            style={{
-              background: 'rgba(44,24,16,0.85)',
-              border: '1px solid rgba(201,168,76,0.4)',
-              backdropFilter: 'blur(8px)',
-              color: '#D4B483',
-              fontFamily: 'var(--font-sans)',
-              maxWidth: 180,
-              whiteSpace: 'nowrap',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-            }}
-            aria-live="polite"
-          >
-            🎵 {music.trackName}
-          </motion.div>
-        )}
-      </AnimatePresence>
-
       <motion.button
         onClick={toggle}
         whileHover={{ scale: 1.1 }}
