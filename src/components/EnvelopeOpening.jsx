@@ -217,9 +217,9 @@ export default function EnvelopeOpening({ onOpen }) {
                   <div style={{ flex: 1, height: 1, background: `linear-gradient(to left, transparent, ${gold})` }} />
                 </div>
                 <h1 style={{ fontFamily: 'var(--font-script)', fontSize: 'clamp(28px, 9vw, 48px)', color: '#4A1118', lineHeight: 1.1, margin: '4px 0' }}>
-                  {couple.bride.firstName}
-                  <span style={{ color: gold, fontSize: '0.65em', margin: '0 8px' }}>&amp;</span>
                   {couple.groom.firstName}
+                  <span style={{ color: gold, fontSize: '0.65em', margin: '0 8px' }}>&amp;</span>
+                  {couple.bride.firstName}
                 </h1>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, margin: '6px 0' }}>
                   <div style={{ flex: 1, height: 1, background: `linear-gradient(to right, transparent, ${gold})` }} />
@@ -239,8 +239,8 @@ export default function EnvelopeOpening({ onOpen }) {
           {/* Invitation card that rises from envelope */}
           <InvitationCard
             phase={phase}
-            brideName={couple.bride.firstName}
-            groomName={couple.groom.firstName}
+            brideName={couple.groom.firstName}
+            groomName={couple.bride.firstName}
             dateDisplay={wedding.dateDisplay}
             tagline={wedding.tagline}
             openingMessage={wedding.openingMessage}

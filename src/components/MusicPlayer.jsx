@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { Play, Pause, Music2 } from 'lucide-react'
 import { weddingConfig } from '../data/weddingConfig'
@@ -7,6 +7,16 @@ export default function MusicPlayer() {
   const { music } = weddingConfig
   const audioRef = useRef(null)
   const [playing, setPlaying] = useState(false)
+
+  // Attempt autoplay on mount; browser policy may block it silently
+  useEffect(() => {
+    if (!audioRef.current) return
+    audioRef.current.play()
+      .then(() => setPlaying(true))
+      .catch(() => {
+        // Autoplay blocked by browser; user must click to play
+      })
+  }, [])
 
   const toggle = () => {
     if (!audioRef.current) return
@@ -78,7 +88,7 @@ export default function MusicPlayer() {
       </motion.button>
 
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-      <audio ref={audioRef} src={music.audioUrl} loop preload="none" />
+      <audio ref={audioRef} src={music.audioUrl} loop preload="auto" />
     </div>
   )
 }

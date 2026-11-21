@@ -50,7 +50,7 @@ export const weddingConfig = {
     invitationText:
       "With the blessings of our families, we joyfully invite you to witness and celebrate our union.",
     openingMessage:
-      "Together with their families,\nPoonam Kangralkar & Prasad Mankoji\nrequest the honour of your presence\nat their wedding celebration.",
+      "Together with their families,\nPrasad Mankoji & Poonam Kangralkar\nrequest the honour of your presence\nat their wedding celebration.",
   },
 
   // ── Events ───────────────────────────────────────────────
@@ -58,7 +58,7 @@ export const weddingConfig = {
   events: [
     {
       id: "mehendi",
-      name: "Mehendi",
+      name: "Mehendi & Function",
       icon: "🌿",
       enabled: true,
       date: "11 December 2026",
@@ -66,20 +66,7 @@ export const weddingConfig = {
       venue: "Ashirwad, Kalmeshwar Nagar, Yellur, Belgaum",
       imageUrl: "/event-mehendi.avif",
       description:
-        "An intimate evening of intricate henna artistry, music, and celebration.",
-    },
-    {
-      id: "sangeet",
-      name: "Sangeet",
-      icon: "🎶",
-      enabled: true,
-      date: "11 December 2026",
-      time: "07:00 PM",
-      venue: "Ashirwad, Kalmeshwar Nagar, Yellur, Belgaum",
-      imageUrl:
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-      description:
-        "An evening of music, dance, and merriment as two families unite in celebration.",
+        "An evening of intricate henna artistry, music, dance, and celebration as two families unite.",
     },
     {
       id: "haldi",
@@ -130,31 +117,28 @@ export const weddingConfig = {
   gallery: [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
-      thumb:
-        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&q=70",
-      caption: "Our engagement evening",
+      url: "/event-wedding.jpg",
+      thumb: "/event-wedding.jpg",
+      caption: "Wedding ceremony",
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80",
+      url: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
       thumb:
-        "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&q=70",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&q=70",
       caption: "Sunset Blessings",
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
-      thumb:
-        "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&q=70",
-      caption: "Floral ceremony",
+      url: "/event-haldi.jpg",
+      thumb: "/event-haldi.jpg",
+      caption: "Haldi ceremony",
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&q=80",
-      thumb:
-        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=400&q=70",
-      caption: "Sacred Vows",
+      url: "/event-mehendi.avif",
+      thumb: "/event-mehendi.avif",
+      caption: "Mehendi evening",
     },
     {
       id: 5,
@@ -200,7 +184,7 @@ export const weddingConfig = {
     rsvpMessage:
       "Hi! I'd love to confirm my attendance at Poonam & Prasad's wedding. 💕",
     shareMessage:
-      "You're invited to celebrate the wedding of Poonam Kangralkar & Prasad Mankoji! 💍✨",
+      "You're invited to celebrate the wedding of Prasad Mankoji & Poonam Kangralkar! 💍✨",
     shareUrl: "https://prasad-poonam-wedding.vercel.app",
     bridePhone: "+917411103558",
     groomPhone: "+917411103558",
@@ -252,11 +236,11 @@ export const weddingConfig = {
     goldAccentColor: '#C9A84C',
     waxSealColor: '#6B1E2A',
     durations: {
-      sealFade: 200,
-      flapOpen: 500,
-      cardRise: 400,
-      cardSettle: 300,
-      overlayFade: 300,
+      sealFade: 300,
+      flapOpen: 700,
+      cardRise: 600,
+      cardSettle: 1500,
+      overlayFade: 2000,
     },
   },
 };

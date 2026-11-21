@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'motion/react'
-import { MessageCircle, Phone, Share2, Heart } from 'lucide-react'
+import { Share2, Heart } from 'lucide-react'
 import { weddingConfig } from '../data/weddingConfig'
 
 const GoldBtn = ({ href, icon: Icon, label, sublabel, ariaLabel }) => (
@@ -108,15 +108,8 @@ export default function RsvpSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="grid grid-cols-2 gap-4"
+          className="flex justify-center"
         >
-          <GoldBtn
-            href={whatsappRsvpUrl}
-            icon={MessageCircle}
-            label="RSVP"
-            sublabel="via WhatsApp"
-            ariaLabel="RSVP via WhatsApp"
-          />
           <GoldBtn
             href={whatsappShareUrl}
             icon={Share2}
