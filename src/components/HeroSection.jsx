@@ -96,7 +96,7 @@ export default function HeroSection() {
           {wedding.tagline}
         </motion.p>
 
-        {/* Bride name */}
+        {/* Groom name first */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -108,7 +108,7 @@ export default function HeroSection() {
             textShadow: '0 2px 20px rgba(0,0,0,0.4)',
           }}
         >
-          {couple.bride.firstName}
+          {couple.groom.firstName}
         </motion.h1>
 
         {/* Ampersand divider */}
@@ -139,7 +139,7 @@ export default function HeroSection() {
           />
         </motion.div>
 
-        {/* Groom name */}
+        {/* Bride name */}
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -151,7 +151,7 @@ export default function HeroSection() {
             textShadow: '0 2px 20px rgba(0,0,0,0.4)',
           }}
         >
-          {couple.groom.firstName}
+          {couple.bride.firstName}
         </motion.h1>
 
         {/* Date badge */}

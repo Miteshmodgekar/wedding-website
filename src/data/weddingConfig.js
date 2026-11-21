@@ -58,7 +58,7 @@ export const weddingConfig = {
   events: [
     {
       id: "mehendi",
-      name: "Mehendi & Function",
+      name: "Mehendi & Sangeet",
       icon: "🌿",
       enabled: true,
       date: "11 December 2026",

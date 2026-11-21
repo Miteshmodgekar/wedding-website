@@ -34,7 +34,7 @@ export default function Footer() {
           className="text-4xl sm:text-5xl mb-3"
           style={{ fontFamily: 'var(--font-script)', color: '#D4B483' }}
         >
-          {couple.bride.firstName} &amp; {couple.groom.firstName}
+          {couple.groom.firstName} &amp; {couple.bride.firstName}
         </h2>
 
         {/* Date */}
