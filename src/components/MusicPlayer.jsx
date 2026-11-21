@@ -8,14 +8,16 @@ export default function MusicPlayer() {
   const audioRef = useRef(null)
   const [playing, setPlaying] = useState(false)
 
-  // Attempt autoplay on mount; browser policy may block it silently
+  // Start music when "Open Invitation" is clicked (user gesture = autoplay allowed)
   useEffect(() => {
-    if (!audioRef.current) return
-    audioRef.current.play()
-      .then(() => setPlaying(true))
-      .catch(() => {
-        // Autoplay blocked by browser; user must click to play
-      })
+    const handler = () => {
+      if (!audioRef.current) return
+      audioRef.current.play()
+        .then(() => setPlaying(true))
+        .catch(() => {})
+    }
+    window.addEventListener('wedding:play', handler)
+    return () => window.removeEventListener('wedding:play', handler)
   }, [])
 
   const toggle = () => {

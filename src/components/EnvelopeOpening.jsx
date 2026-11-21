@@ -150,34 +150,6 @@ export default function EnvelopeOpening({ onOpen }) {
           <SkipButton phase={phase} onSkip={triggerSkip} />
         )}
 
-        {/* ── Eyebrow header ── */}
-        <motion.div
-          initial={{ opacity: 0, y: -16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={reducedMotion ? { duration: 0.05 } : { duration: 0.9, delay: 0.3 }}
-          className="text-center mb-6"
-          aria-hidden="true"
-        >
-          <p style={{
-            fontFamily: 'var(--font-sans)',
-            fontSize: 'clamp(9px, 2.5vw, 11px)',
-            letterSpacing: '0.45em',
-            textTransform: 'uppercase',
-            color: gold,
-          }}>
-            WedCraft Premium
-          </p>
-          <p style={{
-            fontFamily: 'var(--font-serif)',
-            fontStyle: 'italic',
-            fontSize: 'clamp(11px, 3vw, 14px)',
-            color: '#D4B483',
-            marginTop: 2,
-          }}>
-            A Luxury Wedding Invitation
-          </p>
-        </motion.div>
-
         {/* ── Envelope stage ── */}
         <motion.div
           initial={{ opacity: 0, y: 32, scale: 0.94 }}
@@ -276,7 +248,11 @@ export default function EnvelopeOpening({ onOpen }) {
         >
           <motion.button
             ref={openBtnRef}
-            onClick={triggerOpen}
+            onClick={() => {
+              triggerOpen()
+              // Fire event so MusicPlayer starts on this user-gesture
+              window.dispatchEvent(new CustomEvent('wedding:play'))
+            }}
             disabled={phase !== 'CLOSED'}
             className="relative overflow-hidden"
             style={{
