@@ -117,42 +117,39 @@ export const weddingConfig = {
   gallery: [
     {
       id: 1,
-      url: "/event-wedding.jpg",
-      thumb: "/event-wedding.jpg",
-      caption: "Wedding ceremony",
+      url: "/gallery/gallery-6.jpg",
+      thumb: "/gallery/gallery-6.jpg",
+      caption: "Together, Forever",
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
-      thumb:
-        "https://images.unsplash.com/photo-1519741497674-611481863552?w=400&q=70",
-      caption: "Sunset Blessings",
+      url: "/gallery/gallery-1.jpg",
+      thumb: "/gallery/gallery-1.jpg",
+      caption: "Sparkles of Joy",
     },
     {
       id: 3,
-      url: "/event-haldi.jpg",
-      thumb: "/event-haldi.jpg",
-      caption: "Haldi ceremony",
+      url: "/gallery/gallery-5.jpg",
+      thumb: "/gallery/gallery-5.jpg",
+      caption: "A Moment to Remember",
     },
     {
       id: 4,
-      url: "/event-mehendi.avif",
-      thumb: "/event-mehendi.avif",
-      caption: "Mehendi evening",
+      url: "/gallery/gallery-2.jpg",
+      thumb: "/gallery/gallery-2.jpg",
+      caption: "Walking into Forever",
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-      thumb:
-        "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&q=70",
-      caption: "Sangeet night",
+      url: "/gallery/gallery-3.jpg",
+      thumb: "/gallery/gallery-3.jpg",
+      caption: "Two Souls, One Destiny",
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1626197031507-c17099753214?w=800&q=80",
-      thumb:
-        "https://images.unsplash.com/photo-1626197031507-c17099753214?w=400&q=70",
-      caption: "Haldi blessings",
+      url: "/gallery/gallery-4.jpg",
+      thumb: "/gallery/gallery-4.jpg",
+      caption: "Bound by Love",
     },
   ],
   // ── Our Story / Love Story Timeline ─────────────────────
